@@ -42,6 +42,85 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
 * {
     box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5% 5% 5%;
+    
+}
+.one {
+    background-color: #FF764E;
+}
+
+.two {
+    background-color: #5ED3EB;
+}
+
+.three {
+    background-color: #FFCD69;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 2.5rem;
+    display: inline-block;
+    width: 50%;
+}
+
+h2 {
+    display: inline-block;
+    width: 50%;
+}
+
+h3 {
+    display: inline-block;
+    width: 50%;
+}
+
+header {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+h2, h3, p, nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    background-color: #DDB9A3;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+nav {
+    display: block;
+    text-align: center;
+    margin: 20px 20px;
+    height: 10%;
+}
+
+.YCanyons { 
+    height: 35%;
+    width: 35%;
+    border-radius: 100%;
+    margin-top: 10%;
+    display: inline-block;
+}
+
+.LittlePic {
+    
 }
