@@ -52,10 +52,15 @@ html {
     font-size: 62.5%;
 }
 
+b {
+    font-weight: bold;
+}
+
 nav a {
     text-decoration: none;
     color: white;
     padding: 5% 5% 5%;
+
 }
 
 nav {
@@ -85,17 +90,22 @@ nav {
 
 h1 {
     font-family: 'Chelsea Market';
-    font-size: 2.5rem; 
+    font-size: 3rem; 
+    padding: 15%;
+    margin: 0 auto;
 }
 
 h2, h3 {
     font-size: 1.6rem;
+    padding: 5%;
+    margin: 3%;
 }
 header .OMG {
     display: inline-block;
-    width: 50%;
+    width: 45%;
     text-align: center;
-  
+    padding: 1%;
+    margin: 2%;
 }
 
 header .YCanyons { 
@@ -117,6 +127,10 @@ section {
     text-align: center;
 }
 
+section p {
+    padding: 1.4%;
+}
+
 .LittlePic {
     width: 15%;
     height: 15%;
@@ -131,6 +145,7 @@ section {
 
 footer .YCliffs {
     width: 100%;
+    height: 400px;
 }
 
 footer {
