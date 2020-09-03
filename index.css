@@ -1,0 +1,138 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@1,100&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 5% 5% 5%;
+}
+
+nav {
+    text-align: center;
+}
+
+.one, .two, .three {
+    display: inline-block;
+    width: 100px;
+    padding: 2%;
+    border-radius: 10px;
+    text-align: center;
+    margin: 8%;
+}
+
+.one {
+    background-color: #FF764E;
+}
+
+.two {
+    background-color: #5ED3EB;
+}
+
+.three {
+    background-color: #FFCD69;
+}
+
+h1 {
+    font-family: 'Chelsea Market';
+    font-size: 2.5rem; 
+}
+
+h2, h3 {
+    font-size: 1.6rem;
+}
+header .OMG {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+  
+}
+
+header .YCanyons { 
+    width: 35%;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+h2, h3, p, nav {
+    font-family: 'Roboto Mono', monospace;
+}
+
+section {
+    background-color: #DDB9A3;
+    color: white;
+    font-size: 1.6rem;
+    height: 200px;
+    margin: 5% 0;
+    text-align: center;
+}
+
+.LittlePic {
+    width: 15%;
+    height: 15%;
+    margin: 2% 43%;
+}
+
+.CartoonIMG p {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2% 30%;
+}
+
+footer .YCliffs {
+    width: 100%;
+}
+
+footer {
+    background-color: #F9E7DC;
+}
